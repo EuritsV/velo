@@ -38,6 +38,7 @@ export default defineConfig({
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'on-first-retry',
+    // 'on-first-retry',
     
     // Tempo máximo para cada ação individual / interativa como click(), fill() (10 segundos é o padrão do Playwright)
     // Quando o valor é 0, herda o limite do timeout geral do teste, ou seja, 30 segundos nesse caso. Isso é útil para evitar que ações individuais falhem prematuramente em uma aplicação lenta.
